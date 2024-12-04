@@ -1,0 +1,10 @@
+stm32f1_adc.c:42:6:DEMO_adc_process_1ms	4	static
+stm32f1_adc.c:54:6:DEMO_adc_statemachine	32	static
+stm32f1_adc.c:107:13:PORTS_adc_init	32	static
+stm32f1_adc.c:247:13:PORTS_adc_Deinit	16	static
+stm32f1_adc.c:304:6:ADC_init	32	static
+stm32f1_adc.c:361:6:ADC_Deinit	8	static
+stm32f1_adc.c:380:9:ADC_getValue	16	static
+stm32f1_adc.c:392:6:ADC_set_callback_function	16	static
+stm32f1_adc.c:399:8:ADC_is_new_sample_available	16	static
+stm32f1_adc.c:412:6:DMA1_Channel1_IRQHandler	8	static

@@ -1,0 +1,7 @@
+WS2812S.c:39:6:LED_MATRIX_init	16	static
+WS2812S.c:75:6:LED_MATRIX_send_pixel	16	static
+WS2812S.c:80:6:LED_MATRIX	264	static
+WS2812S.c:135:6:LED_MATRIX_display	24	static,ignoring_inline_asm
+WS2812S.c:145:6:LED_MATRIX_display_only_one_pixel	24	static,ignoring_inline_asm
+WS2812S.c:155:6:LED_MATRIX_display_full	24	static,ignoring_inline_asm
+WS2812S.c:165:6:LED_MATRIX_reset	8	static

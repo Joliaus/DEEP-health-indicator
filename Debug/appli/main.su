@@ -1,0 +1,5 @@
+main.c:19:6:writeLED	16	static
+main.c:24:8:readButton	8	static
+main.c:30:6:process_ms	4	static
+main.c:37:5:main	16	static
+main.c:74:6:main_state_machine	24	static

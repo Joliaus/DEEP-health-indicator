@@ -1,0 +1,10 @@
+MLX90614.c:54:6:MLX90614_init	8	static
+MLX90614.c:66:11:MLX90614_mesure	48	static
+MLX90614.c:108:12:MLX90614_resultat	40	static
+MLX90614.c:160:6:MLX90614_process_1ms	4	static
+MLX90614.c:170:8:readObjectTempF	8	static
+MLX90614.c:176:8:readAmbientTempF	8	static
+MLX90614.c:181:8:readObjectTempC	8	static
+MLX90614.c:187:8:readAmbientTempC	8	static
+MLX90614.c:192:7:readTemp	24	static
+MLX90614.c:204:10:read16	32	static
