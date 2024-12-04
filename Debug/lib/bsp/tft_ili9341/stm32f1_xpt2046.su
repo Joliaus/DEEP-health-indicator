@@ -1,8 +1,0 @@
-stm32f1_xpt2046.c:89:6:XPT2046_demo	24	static
-stm32f1_xpt2046.c:126:6:XPT2046_init	16	static
-stm32f1_xpt2046.c:144:6:XPT2046_setConfig	8	static
-stm32f1_xpt2046.c:155:8:XPT2046_getCoordinates	64	static
-stm32f1_xpt2046.c:218:8:XPT2046_getAverageCoordinates	48	static
-stm32f1_xpt2046.c:261:8:XPT2046_getMedianCoordinates	80	static
-stm32f1_xpt2046.c:319:15:XPT2046_getReading	24	static
-stm32f1_xpt2046.c:339:13:XPT2046_convertCoordinateScreenMode	32	static
