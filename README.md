@@ -33,7 +33,8 @@ This project aims to develop a portable system to measure a user's health status
 
 ## Installation and Compilation
 
-1. **Clone the repository**:
+**Clone the repository**:
+   
    ```bash
    git clone https://github.com/Joliaus/DEEP-health-indicator.git
    cd DEEP-health-indicator
