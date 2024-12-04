@@ -1,0 +1,4 @@
+*.exe *.out *.hex *.cyclo *.o
+*.d
+*.elf
+Debug/
