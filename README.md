@@ -1,39 +1,39 @@
-# Indicateur de santé par mesure cardiaque et thermique
+# Health Indicator Using Cardiac and Thermal Measurements
 
-Ce projet consiste à développer un système portable permettant de mesurer l'état de santé d'un utilisateur en temps réel. Le dispositif utilise des capteurs pour surveiller la fréquence cardiaque (BPM) et la température corporelle, et affiche les résultats sur un écran TFT tactile. En cas de valeurs anormales, des alertes visuelles et Bluetooth sont générées.
+This project aims to develop a portable system to measure a user's health status in real time. The device uses sensors to monitor heart rate (BPM) and body temperature, displaying the results on a touchscreen TFT display. In case of abnormal values, visual and Bluetooth alerts are triggered.
 
-## Fonctionnalités
+## Features
 
-- **Mesure en temps réel** :
-  - Fréquence cardiaque (BPM) via un capteur de pouls.
-  - Température corporelle via un capteur infrarouge.
-- **Affichage des données** :
-  - Utilisation d'un écran TFT tactile pour afficher les constantes.
-- **Alertes automatiques** :
-  - Alerte visuelle avec une matrice LED (cœur battant).
-  - Alerte via Bluetooth sur un smartphone.
-- **Compact et portable** :
-  - Boîtier ergonomique adapté pour un doigt.
+- **Real-Time Monitoring**:
+  - Heart rate (BPM) via a pulse sensor.
+  - Body temperature via an infrared sensor.
+- **Data Display**:
+  - A touchscreen TFT display shows the vital signs.
+- **Automatic Alerts**:
+  - Visual alert with an LED matrix (beating heart animation).
+  - Bluetooth alert sent to a smartphone.
+- **Compact and Portable**:
+  - Ergonomic casing designed to fit on a finger.
 
-## Architecture matérielle
+## Hardware Architecture
 
-- **Écran TFT** : ILI9341 (240x320) avec contrôleur XPT2046.
-- **Capteur de température** : MLX90614.
-- **Capteur de pouls** : Photodiode avec signal amplifié.
-- **Matrice LED** : 8x8 LEDs adressables (WS2812).
-- **Module Bluetooth** : HC-05 pour la communication sans fil.
+- **TFT Display**: ILI9341 (240x320) with XPT2046 controller.
+- **Temperature Sensor**: MLX90614.
+- **Pulse Sensor**: Photodiode with amplified signal output.
+- **LED Matrix**: 8x8 addressable LEDs (WS2812).
+- **Bluetooth Module**: HC-05 for wireless communication.
 
-## Prérequis
+## Requirements
 
-- **Microcontrôleur** : STM32F103 (BluePill).
-- **Logiciels nécessaires** :
-  - STM32CubeIDE : pour le développement du firmware.
-  - Altium Designer : pour le design de PCB (optionnel).
-  - Fusion 360 : pour la modélisation 3D du boîtier.
+- **Microcontroller**: STM32F103 (BluePill).
+- **Necessary Software**:
+  - STM32CubeIDE: for firmware development.
+  - Altium Designer: for PCB design (optional).
+  - Fusion 360: for 3D modeling of the casing.
 
-## Installation et Compilation
+## Installation and Compilation
 
-1. **Cloner le dépôt** :
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/Joliaus/DEEP-health-indicator.git
-   cd votre-repo
+   cd DEEP-health-indicator
